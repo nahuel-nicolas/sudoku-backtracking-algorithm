@@ -1,0 +1,104 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*, *:focus, *:hover {
+    outline: none;
+  }
+
+/* General */
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    font-size: 18px;
+    color: #fff;
+    background-color: green;
+    padding: 10px 15px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: greenyellow;
+}
+
+.disabled {
+    color: #fff;
+    background-color: rgb(91, 143, 91);
+}
+
+.disabled:hover {
+    color: #fff;
+    background-color: rgb(91, 143, 91);
+    cursor: progress;
+}
+
+/* containers */
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#board-and-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#board-and-buttons button {
+    color: green;
+    background-color: transparent;
+    border: none;
+}
+
+#board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Board */
+.board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.board .row {
+    display: flex;
+}
+
+/* Cell */
+.board .row .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #bec6d4;
+    padding: 15px;
+    background-color: white;
+}
+
+/* Cell span */
+.board .row .cell span {
+    display: block;
+    position: absolute;
+}

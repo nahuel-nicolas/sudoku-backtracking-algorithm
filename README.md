@@ -1,1 +1,2 @@
-# sudoku-backtracking-algorithm
+# Sudoku Backtracking Algorithm
+Enjoy completing Sudokus!

@@ -2,4 +2,4 @@
 Enjoy completing Sudokus!
 
 
-Interact with the app: https://nicholas-01.github.io/sudoku-backtracking-algorithm/
+Interact with the app: https://nahuel-nicolas.github.io/sudoku-backtracking-algorithm/
